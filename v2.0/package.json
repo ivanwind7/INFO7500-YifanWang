@@ -1,0 +1,28 @@
+{
+  "name": "nftdutchauction-v2.0",
+  "version": "2.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ivanwind7/NFTDutchAuction-v2.0.git"
+  },
+  "author": "Yifan Wang",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ivanwind7/NFTDutchAuction-v2.0/issues"
+  },
+  "homepage": "https://github.com/ivanwind7/NFTDutchAuction-v2.0#readme",
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^2.0.1",
+    "@types/mocha": "^10.0.1",
+    "hardhat": "^2.12.7",
+    "solidity-coverage": "^0.8.2"
+  },
+  "dependencies": {
+    "@openzeppelin/contracts": "^4.8.1"
+  }
+}
