@@ -2,7 +2,5 @@
 /* tslint:disable */
 /* eslint-disable */
 export type { BasicDutchAuction } from "./BasicDutchAuction";
-export type { Lock } from "./Lock";
 export * as factories from "./factories";
 export { BasicDutchAuction__factory } from "./factories/BasicDutchAuction__factory";
-export { Lock__factory } from "./factories/Lock__factory";

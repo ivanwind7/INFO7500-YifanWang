@@ -17,7 +17,6 @@ describe("Deploy My NFT", function () {
     async function mintTokenFixture() {
       const {myNFT, nftContractOwner, auctionOwner, buyer} = await loadFixture(deployMyNFTFixture);
       await myNFT.awardToken(auctionOwner.address);
-
       return {myNFT, nftContractOwner, auctionOwner, buyer};
     }
 

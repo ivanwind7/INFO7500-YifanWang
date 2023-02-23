@@ -38,6 +38,41 @@
       "artifacts": [
         "BasicDutchAuction"
       ]
+    },
+    "/Users/ivanwind/Projects/info7500/INFO7500-YifanWang/v1.0/contracts/BasicDutchAuction.sol": {
+      "lastModificationDate": 1675203980188,
+      "contentHash": "21b6104bef96d2b021fc108ce023589f",
+      "sourceName": "contracts/BasicDutchAuction.sol",
+      "solcConfig": {
+        "version": "0.8.17",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "BasicDutchAuction"
+      ]
     }
   }
 }
